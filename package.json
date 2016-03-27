@@ -1,0 +1,23 @@
+{
+  "name": "webpack-poc",
+  "version": "1.0.0",
+  "description": "POC for a proper react build system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wrick17/wepack-poc"
+  }
+  "author": "wrick17",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "css-loader": "^0.23.1",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14"
+  }
+}

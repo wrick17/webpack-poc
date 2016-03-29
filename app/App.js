@@ -8,7 +8,7 @@ export default class App extends React.Component {
     return (
       <header>
         <div className={style.page}>Webpack is doing its thing with React and ES2015
-          <h1 className="bold">You</h1>
+          <h1 className={style.bold}>You</h1>
         </div>
       </header>
     );

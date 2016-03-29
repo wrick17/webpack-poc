@@ -18,8 +18,8 @@ module.exports = {
       },
       {
         test: /\.less$/,
-        loader: "style!css!less"
-      }
+        loader: "style-loader!css-loader?localIdentName=[path][name]__[hash:base64:5]__[local]!less-loader"
+      },
     ]
   },
   devServer: {
